@@ -1,12 +1,18 @@
 Package: toypackage
-Title: What the Package Does (One Line, Title Case)
+Title: A Toy Package
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Sabrina", "Schmitt", , "s.schmitt208@gmx.de", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: This package was created as part of a tutorial on how to create packages.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
+URL: https://github.com/sabrinaschmitt/toypackage
+BugReports: https://github.com/sabrinaschmitt/toypackage/issues
